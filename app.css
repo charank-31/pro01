@@ -1,0 +1,90 @@
+body {
+  font-family: cormorant, serif;
+}
+
+h1 {
+  font-weight: 550;
+  display: inline-block;
+  margin: 0;
+}
+
+.links,
+li {
+  display: inline-block;
+  font-size: 18px;
+}
+
+.links ul {
+  padding-left: 30px;
+}
+
+.header {
+  margin: 30px 30px 15px 30px;
+}
+
+.links a {
+  color: black;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+a.active {
+  border-bottom: 1px solid black;
+}
+
+.card img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card img:hover {
+  opacity: 0.8;
+}
+
+.card {
+  width: 49.75%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.card h2 {
+  display: inline-block;
+  font-weight: 350;
+  margin-top: 2px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.images {
+  padding: 15px;
+}
+
+.about h3 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.about {
+  display: inline-block;
+  width: 28%;
+  min-width: 400px;
+  margin: 100px 0 100px 200px;
+}
+
+.about .line {
+  display: inline-block;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  margin-top: 10px;
+}
+
+.contact {
+  margin-top: 40px;
+}
+
+.contact p {
+  margin: 0;
+  font-size: 18px;
+}
